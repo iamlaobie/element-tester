@@ -1,5 +1,5 @@
 const test = require('./index')
-test({ url: 'https://www.baidu.com/', selecotr: '#kw' }).then((els) => {
+test({ url: 'https://www.baidu.com/', selector: '#kw > aaaa' }).then((els) => {
   // You can test deeply by els
   console.log('The page loaded was OK')
   console.log('Specified selector els is ', els)

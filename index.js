@@ -22,10 +22,10 @@ module.exports = ({
     const si = setInterval(() => {
       times += 1
       const el = document.querySelectorAll(selector)
-      if (el) {
+      if (el.length) {
         resolve(el)
       }
-      if (times >= maxRetry && !el) {
+      if (times >= maxRetry && !el.length) {
         clearInterval(si)
         reject()
       }

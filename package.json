@@ -1,5 +1,5 @@
 {
-  "name": "static-monitor",
+  "name": "element-tester",
   "version": "1.0.0",
   "description": "Test the content of some page has a specified element",
   "main": "index.js",
