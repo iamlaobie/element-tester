@@ -1,0 +1,18 @@
+{
+  "name": "static-monitor",
+  "version": "1.0.0",
+  "description": "Test the content of some page has a specified element",
+  "main": "index.js",
+  "author": "iamlaobie@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^11.5.1",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "babel-eslint": "^8.2.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
